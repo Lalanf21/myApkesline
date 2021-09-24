@@ -1,0 +1,10 @@
+splash
+register
+login
+Upload foto
+doctor
+message
+choose doctor
+user profile
+chatting
+update profile
