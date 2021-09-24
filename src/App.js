@@ -10,7 +10,7 @@ import {LogBox} from 'react-native';
 const MainApp = () => {
   const stateGlobal = useSelector(state => state);
   // YellowBox.ignoreWarnings(['Setting a timer']);
-  LogBox.ignoreAllLogs('true');
+  LogBox.ignoreLogs(['Setting a timer']);
   return (
     <>
       <NavigationContainer>
